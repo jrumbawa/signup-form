@@ -47,6 +47,7 @@ h6 {
 ================= */
 body {
   display: flex;
+  font-family: sans-serif;
 }
 
 .wallpaper {
@@ -77,3 +78,16 @@ body {
 .logo img {
   max-width: 100px;
 }
+
+.info-header {
+  background-color: #f1f1f1;
+  padding: 150px 50px 75px;
+  font-size: 1.125rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.header-text {
+  margin-bottom: 1em;
+}
+
