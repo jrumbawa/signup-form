@@ -41,3 +41,39 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
+/* ================= 
+        Layout
+================= */
+body {
+  display: flex;
+}
+
+.wallpaper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../images/halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  flex: 2;
+}
+
+.info {
+  flex: 3;
+}
+
+.logo {
+  display: flex;
+  font-size: 42px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  background-color:rgba(0,0,0, 0.5);
+  color: white;
+}
+
+.logo img {
+  max-width: 100px;
+}
