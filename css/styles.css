@@ -45,6 +45,11 @@ h6 {
 /* ================= 
         Layout
 ================= */
+@font-face {
+  font-family: norse-bold;
+  src: url(../fonts/Norse-Bold.otf);
+}
+
 body {
   display: flex;
   font-family: sans-serif;
@@ -66,7 +71,6 @@ body {
 
 .logo {
   display: flex;
-  font-size: 42px;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -79,16 +83,18 @@ body {
   max-width: 100px;
 }
 
-.info-header {
-  height: 35vh;
+.logo-text {
+  font-family: norse-bold, sans-serif;
+  font-size: 100px;
 }
 
 .info-header {
-  background-color: #f1f1f1;
+  background-color: #E5E7EB;
   padding: 150px 50px 75px;
   font-size: 1.125rem;
   line-height: 1.2;
   font-weight: 600;
+  height: 35vh;
 }
 
 .header-text {
@@ -97,11 +103,30 @@ body {
 
 .main {
   height: 30vh;
-  padding: 0 50px;
+  padding: 15px 50px;
+}
+
+.main-title {
+  margin-bottom: 1rem;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field input {
+  border: 1px solid #E5E7EB;
+  border-radius: 5px;
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 25px;
 }
 
 .footer {
-  background-color: #f1f1f1;
+  background-color: #E5E7EB;
   height: 35vh;
   padding: 0 50px;
 }
