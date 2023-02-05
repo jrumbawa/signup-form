@@ -113,6 +113,13 @@ body {
 .input-field {
   display: flex;
   flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.input-field label {
+  font-size: .6125rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .input-field input {
@@ -139,4 +146,10 @@ body {
   font-weight: 700;
   padding: .5rem 2rem;
   margin: 2rem 0;
+}
+
+.footer a {
+  color: #596D48;
+  text-decoration: none;
+  font-weight: 700;
 }
