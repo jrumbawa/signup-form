@@ -80,6 +80,10 @@ body {
 }
 
 .info-header {
+  height: 35vh;
+}
+
+.info-header {
   background-color: #f1f1f1;
   padding: 150px 50px 75px;
   font-size: 1.125rem;
@@ -91,3 +95,23 @@ body {
   margin-bottom: 1em;
 }
 
+.main {
+  height: 30vh;
+  padding: 0 50px;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  height: 35vh;
+  padding: 0 50px;
+}
+
+.btn {
+  background-color: #596D48;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 700;
+  padding: .5rem 2rem;
+  margin: 2rem 0;
+}
