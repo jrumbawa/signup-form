@@ -11,7 +11,7 @@
     <section class="wallpaper">
       <div class="logo">
         <img src="images/odin.png" alt="Odin logo" />
-        <p>Odin</p>
+        <p class="logo-text">Odin</p>
       </div>
     </section>
     <section class="info">
@@ -23,20 +23,38 @@
         <p class="header-subtext">You <em>know what</em> you want to.</p>
       </header>
       <main class="main">
-        <h2>Let's do this!</h2>
+        <h2 class="main-title">Let's do this!</h2>
         <form>
-          <label for="first_name">First Name</label>
-          <input type="text" id="first_name" name="first_name" />
-          <label for="last_name">Last Name</label>
-          <input type="text" id="last_name" name="last_name" />
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" />
-          <label for="phone_number">Phone Number</label>
-          <input type="text" id="phone_number" name="phone_number" />
-          <label for="password">Password</label>
-          <input type="password" name="password" id="password" />
-          <label for="confirm_password">Confirm Password</label>
-          <input type="password" name="confirm_password" id="confirm_password" />
+          <div class="input-wrapper">
+            <div class="input-field">
+              <label for="first_name">First Name</label>
+              <input type="text" id="first_name" name="first_name" />
+            </div>
+            <div class="input-field">
+              <label for="last_name">Last Name</label>
+              <input type="text" id="last_name" name="last_name" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <div class="input-field">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="input-field">
+              <label for="phone_number">Phone Number</label>
+              <input type="text" id="phone_number" name="phone_number" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <div class="input-field">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" />
+            </div>
+            <div class="input-field">
+              <label for="confirm_password">Confirm Password</label>
+              <input type="password" name="confirm_password" id="confirm_password" />
+            </div>
+          </div>
         </form>
       </main>
       <footer class="footer">
